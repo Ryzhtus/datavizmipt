@@ -60,7 +60,7 @@ def layered_tree_draw(filename):
 
     plt.figure(figsize=(10,10))
 
-    nx.draw(graph, pos=coordinates, with_labels=True, node_size=150)
+    nx.draw(graph, pos=coordinates, with_labels=False, node_size=150)
 
     plt.axis('off')
     plt.show()
